@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $user['user_uid'];
 
             // Redirect to dashboard
-            header('Location: welcome.php');
+            header('Location: index.php');
             exit();
         } else {
             // Invalid login

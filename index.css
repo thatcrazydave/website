@@ -1,0 +1,14 @@
+.top-text h1 {
+  text-align: center;
+  font-size: 10vh;
+  color: black;
+  margin-top: 100px;
+  font-weight: 20%;
+  font-family: 'Montserrat';
+}
+.top-text{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

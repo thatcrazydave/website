@@ -314,10 +314,10 @@ a {
     </div>
     <div class="trusted">
         <p>Trusted by the world's leading enterprises</p>
-        <img alt="NASA logo" height="50" src="https://storage.googleapis.com/a1aa/image/W21AlvLc0noZCdns3i1byiQ5nRDjAmGHe1qG6U4Vpdc7TQAKA.jpg" width="100"/>
-        <img alt="TaskRabbit logo" height="50" src="https://storage.googleapis.com/a1aa/image/zW3EEYMJioJqKxltxAlKZuJJgf9L1CR0mf6y1YLUiGfMPBBoA.jpg" width="100"/>
-        <img alt="Walmart logo" height="50" src="https://storage.googleapis.com/a1aa/image/3hT6FIFYvkISOJrIWyNNxPDyfI9BbOQuLu7bKJC85Bk2TQAKA.jpg" width="100"/>
-        <img alt="Nextdoor logo" height="50" src="https://storage.googleapis.com/a1aa/image/deOTenZktIq7nUIFhD3KdfxCHNDWZ2YRV0QHjRhcykZQPBBoA.jpg" width="100"/>
+        <img alt="NASA logo" height="50" src="" width="100"/>
+        <img alt="TaskRabbit logo" height="50" src="" width="100"/>
+        <img alt="Walmart logo" height="50" src="" width="100"/>
+        <img alt="Nextdoor logo" height="50" src="" width="100"/>
         <img alt="Deloitte logo" height="50" src="https://storage.googleapis.com/a1aa/image/SZXgOpmfeiowPUoWH5FD6eEn5UzL06T0wPesbUfuxyiSeJIAF.jpg" width="100"/>
         <img alt="BlueCross BlueShield logo" height="50" src="https://storage.googleapis.com/a1aa/image/08DIZbxZVX4hORGoGIDJuXawkvJDfppejDCoOrcYBb2pngAUA.jpg" width="100"/>
         <img alt="Porsche logo" height="50" src="https://storage.googleapis.com/a1aa/image/vYbNdfV8wx0NZy3YyLV3OazWCkA3DexlRwzxe1SfVfjf7JIAF.jpg" width="100"/>

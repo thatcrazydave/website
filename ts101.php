@@ -162,7 +162,7 @@ a {
     align-items: center;
     background-color: #000;
     color: #fff;
-    padding: 50px;
+    padding: 100px;
 }
 
 .hero .text {
@@ -195,8 +195,10 @@ a {
 }
 
 .hero img {
-    max-width: 45%;
     border-radius: 10px;
+    border: 3px solid #fff;
+    max-width: 100%;
+    /* height: 70%; */
 }
 
 /* Trusted Section */
@@ -252,7 +254,9 @@ a {
     }
 
     .hero img {
-        max-width: 80%;
+        max-width: 100%;
+        max-height: 50% ;
+        height: 50%;
     }
 
     .trusted img {
@@ -282,6 +286,10 @@ a {
         max-width: 60px;
     }
 }
+.top-img img{
+    
+    border-radius: 10px;
+}
     </style>
 </head>
 <body>
@@ -307,23 +315,16 @@ a {
     <div class="hero">
         <div class="text">
             <h1>The all-in-one hiring solution</h1>
-            <p>Hire top tech, design, marketing talent. Innovate, fast.</p>
+            <p>Hire top tech, design, and marketing talent to drive innovation and accelerate your projects. Our platform connects you with the best professionals in the industry, ensuring you have the expertise needed to succeed quickly and efficiently.</p>
             <a class="button" href="#">Book demo</a>
-        </div>
-        <img alt="Screenshot of pre-vetted talent profiles" height="400" src="https://storage.googleapis.com/a1aa/image/pRUtYLMFQ9rmEJ9retipxfh3bSVn5VrQC0isTwoybcxrngAUA.jpg" width="600"/>
+        </div class="top-img">
+        <img alt="" height="400" src="img/3.jpg" width="600"/>
     </div>
     <div class="trusted">
         <p>Trusted by the world's leading enterprises</p>
-        <img alt="NASA logo" height="50" src="" width="100"/>
-        <img alt="TaskRabbit logo" height="50" src="" width="100"/>
-        <img alt="Walmart logo" height="50" src="" width="100"/>
-        <img alt="Nextdoor logo" height="50" src="" width="100"/>
-        <img alt="Deloitte logo" height="50" src="https://storage.googleapis.com/a1aa/image/SZXgOpmfeiowPUoWH5FD6eEn5UzL06T0wPesbUfuxyiSeJIAF.jpg" width="100"/>
-        <img alt="BlueCross BlueShield logo" height="50" src="https://storage.googleapis.com/a1aa/image/08DIZbxZVX4hORGoGIDJuXawkvJDfppejDCoOrcYBb2pngAUA.jpg" width="100"/>
-        <img alt="Porsche logo" height="50" src="https://storage.googleapis.com/a1aa/image/vYbNdfV8wx0NZy3YyLV3OazWCkA3DexlRwzxe1SfVfjf7JIAF.jpg" width="100"/>
-        <img alt="Wayfair logo" height="50" src="https://storage.googleapis.com/a1aa/image/8MwAKHsKO755PplcGfuBnJoLSf7mVle6CGzZnkxLfMafeJIAF.jpg" width="100"/>
-        <img alt="Pacific Life logo" height="50" src="https://storage.googleapis.com/a1aa/image/lS0keYiwTRVMD6j0naI5Dgi6eWGSGxREABYrrZEgzJc0ngAUA.jpg" width="100"/>
-        <img alt="Nike logo" height="50" src="https://storage.googleapis.com/a1aa/image/uXryRTHfxhw7Ji6flkMqtWApwq3LIox6YgltXFhxrBDwngAUA.jpg" width="100"/>
+        <img alt="" height="50" src="" width="100"/>
+        <img alt="" height="50" src="" width="100"/>
+        <img alt="" height="50" src="" width="100"/>
     </div>
     <div class="footer">
         <p>Braintrust</p>

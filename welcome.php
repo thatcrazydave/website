@@ -15,7 +15,7 @@ require_once 'header2.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings Page</title>
+    <title>Profile</title>
     <style>
         /* Global Reset */
         * {
@@ -78,12 +78,41 @@ require_once 'header2.php';
                 font-size: 1.2em;
             }
         }
+        .details form{
+            display: flex;
+            flex-direction: column;
+        }
+        .details form input{
+            margin: 10px 0;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 50%;
+        }
     </style>
 </head>
 <body>
     <div class="content">
         <h2>Settings</h2>
         <p>Here you can manage your account settings and make changes.</p>
+        <div class="details">
+            <form action="" method="post">
+            <br>
+            <label for="">Fullname:</label>
+            <input type="text" name="" id="">
+            <br>
+            <label for="">Email:</label>
+            <input type="text" name="" id="">
+            <br>
+            <label for="">Username:</label>
+            <input type="text" name="" id="">
+            <!-- <br>
+            <input type="text" name="" id="">
+            <br>
+            <input type="text" name="" id=""> -->
+            
+            </form>
+        </div>
     </div>
 </body>
 </html>

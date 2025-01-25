@@ -7,9 +7,9 @@ $isLoggedIn = isset($_SESSION['username']); // Assuming 'username' is set upon l
 
 // Include the appropriate navigation bar based on login status
 if ($isLoggedIn) {
-    include 'header2.php'; // Navigation bar for logged-in users
+    include 'headers/header2.php'; // Navigation bar for logged-in users
 } else {
-    include 'header.php'; // Navigation bar for logged-out users
+    include 'headers/header.php'; // Navigation bar for logged-out users
 }
 
 // Handle logout action

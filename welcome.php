@@ -7,7 +7,7 @@ if (!isset($_SESSION['username'])) {
 }
 // $mail = $_SESSION['mail'];
 $username = $_SESSION['username']; // Get the username from session
-require_once 'header2.php';
+require_once 'headers/header2.php';
 ?>
 
 <!DOCTYPE html>

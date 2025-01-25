@@ -303,8 +303,8 @@ a {
             <a href="#">Blog</a>
         </div>
         <div class="buttons">
-            <a class="log-in" href="login.php">Log in</a>
-            <a class="sign-up" href="signup.php">Sign Up</a>
+            <a class="log-in" href="reg/login.php">Log in</a>
+            <a class="sign-up" href="reg/signup.php">Sign Up</a>
         </div>
         <div class="hamburger">
             <div class="line"></div>

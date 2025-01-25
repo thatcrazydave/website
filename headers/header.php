@@ -7,7 +7,7 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Work</a></li>
                     <li><a href="#">Info</a></li>
-                    <li><a href="login.php">Get Started</a></li>
+                    <li><a href="register/login.php">Get Started</a></li>
                 </ul>
             </div>
         </header>

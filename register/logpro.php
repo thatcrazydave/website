@@ -3,7 +3,7 @@
 session_start();
 
 // Include the database connection
-require_once 'db.php'; // Ensure this file contains the PDO connection to your database
+require_once '../db.php'; // Ensure this file contains the PDO connection to your database
 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['username'] = $user['user_uid'];
 
             // Redirect to dashboard
-            header('Location: index.php');
+            header('Location: ../index.php');
             exit();
         } else {
             // Invalid login

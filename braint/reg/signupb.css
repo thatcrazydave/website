@@ -62,8 +62,8 @@ header .links {
     margin: 50px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.733);
+    border-radius: 30px;
     margin-top: 70px;
 }
 .gen{

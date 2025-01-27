@@ -6,7 +6,7 @@ if (!isset($_SESSION['username'])) {
     exit();
 }
 // fetch_all_users.php - Fetch all user details from the database
-include 'database.php';
+include '../database.php';
 
 // Handle delete action
 if (isset($_GET['delete_id'])) {
@@ -140,7 +140,7 @@ $result = $conn->query($sql);
                             <td><?php echo htmlspecialchars($user['user_email']); ?></td>
                             <!-- <td><?php echo htmlspecialchars($user['user_pwd']); ?></td> -->
                             <td>
-                                <a href="?delete_id=<?php echo $user['id']; ?>" class="btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>
+                             <a href="?delete_id=<?php echo $user['id']; ?>" class="btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>
                             </td>
                         </tr>
                     <?php endwhile; ?>

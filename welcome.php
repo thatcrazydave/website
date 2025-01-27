@@ -13,6 +13,7 @@ require_once 'headers/header2.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
@@ -89,29 +90,46 @@ require_once 'headers/header2.php';
             border: 1px solid #ccc;
             width: 50%;
         }
+        .Top-details{
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+        .Top-details a p {
+            margin: 10px;
+            list-style: none;
+            display: flex;
+
+
+        }
+        .Top-details h3 {
+            margin: 10px;
+        }
+        .Profile {
+            display: inline-flex;
+
+        }
+        .details{
+            margin-top: 20px;
+
+        }
     </style>
 </head>
 <body>
     <div class="content">
-        <h2>Settings</h2>
-        <p>Here you can manage your account settings and make changes.</p>
+        <h2>Account Center</h2>
+        <p>Manage your account information and settings.</p>
+        <div class=	"Top-details">
+            <h3>Account</h3>
+            <div class="Profile">
+            <i class="fas fa-cog"></i>
+            <a href=""><p>Profile and information</p></a>
+            </div>
+        </div>
         <div class="details">
-            <form action="" method="post">
-            <br>
-            <label for="">Fullname:</label>
-            <input type="text" name="" id="">
-            <br>
-            <label for="">Email:</label>
-            <input type="text" name="" id="">
-            <br>
-            <label for="">Username:</label>
-            <input type="text" name="" id="">
-            <!-- <br>
-            <input type="text" name="" id="">
-            <br>
-            <input type="text" name="" id=""> -->
-            
-            </form>
+            <h2>Account Settings</h2>
+            <p>Password and Security</p>
+            <p>De</p>
         </div>
     </div>
 </body>

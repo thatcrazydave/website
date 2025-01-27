@@ -10,7 +10,7 @@
     <div class="gen">
     <header>
         <div class="container">
-           <a href="index.php" class="logo">AP<b>OLO</b></a>
+        <a href="../ts101.php" class="logo">BRAIN<b>TRUST</b></a>
             <ul class="links">
                 <!-- <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>

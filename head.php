@@ -1,4 +1,21 @@
-* {
+<header>
+            <div class="container1">
+                <a href="../index.php" class="logo">AP<b>OLO</b></a>
+                <ul class="links">
+                    <!-- <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="signup.html">Get Started</a></li> -->
+                </ul>
+            </div>
+        </header>
+        <?php
+        // Add a PHP script to prevent right clicking
+echo '<script>document.addEventListener("contextmenu", function(event) { event.preventDefault(); });</script>';
+        ?>
+        <style>
+            * {
     box-sizing: border-box;
 }
 body {
@@ -12,14 +29,14 @@ ul {
     padding: 0;
     margin: 0;
 }
-.container {
+.container1 {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1170px; /* Added max-width */
 }
-header .container {
+header .container1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +48,7 @@ header .logo {
     text-transform: uppercase;
     font-size: 20px;
 }
-header .container .links li {
+header .container1 .links li {
     margin-left: 30px;
     color: #5d5d5d;
     cursor: pointer;
@@ -56,15 +73,16 @@ header .links {
         gap: 10px;
     }
 }
-.container1{
+.container11{
     width: 100%;
     max-width: 400px;
     margin: 50px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.733);
-    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     margin-top: 70px;
+    align-items: center;
 }
 .gen{
     margin-top: 30px;
@@ -76,6 +94,7 @@ h2 {
 }
 form {
     
+    align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,3 +131,4 @@ button:hover {
     margin-top: 10px;
     text-align: center;
 }
+        </style>

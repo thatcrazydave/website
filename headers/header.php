@@ -1,11 +1,10 @@
 <div class="landing-page">
         <header>
             <div class="container">
-               <a href="#" class="logo">AP<b>OLO</b></a>
+               <a href="./index.php" class="logo">AP<b>OLO</b></a>
                 <ul class="links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Work</a></li>
+                   
+                    <li><a href="./about.php">About Us</a></li>
                     <li><a href="#">Info</a></li>
                     <li><a href="register/login.php">Get Started</a></li>
                 </ul>

@@ -1,6 +1,6 @@
 <?php
 // Include the database connection
-require '../database.php';
+require '../db/database.php';
 
 // Function to check password complexity
 function isPasswordComplex($password) {

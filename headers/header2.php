@@ -3,7 +3,7 @@
             <div class="container">
                <a href="./index.php" class="logo">AP<b>OLO</b></a>
                 <ul class="links">
-                <li><a href="work.php">Work</a></li>
+                <li><a href="register/work.php">Join Team</a></li>
                 <li><a href="welcome.php">Profile</a></li>
                 <li><a href="./about.php">About Us</a></li>
                 <li><a href="register/logout.php">Logout</a></li>

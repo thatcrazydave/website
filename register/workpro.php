@@ -17,9 +17,10 @@ if ($conn->connect_error) {
 $fullname = $conn->real_escape_string($_POST['fullname']);
 $email = $conn->real_escape_string($_POST['email']);
 $categories = $_POST['categories'];
+$phonenumber = $conn->real_escape_string($_POST['phone']);
 
 // Validate inputs
-if (empty($fullname) || empty($email) || empty($categories)) {
+if (empty($fullname) || empty($email) || empty($categories) || empty($phonenumber)) {
     die("All fields are required");
 }
 

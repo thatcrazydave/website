@@ -56,13 +56,16 @@ body {
 /* Content Container */
 .content {
     max-width: 800px;
-    width: 90%;
+    width: 50%;
     margin: 50px auto;
     padding: 25px;
     background-color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: left;
+}
+.content h3{
+    margin-left : 20px;
 }
 
 /* Responsive Design */
@@ -95,15 +98,19 @@ body {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #000;
-    width: 100%;
+    width: 80%;
+    bottom: 10px;
 }
-.Low-details .Logout{
+.Top-details .Profile #first{
+    margin-bottom : 10px;
+}
+/* .Low-details .Logout{
     display: inline-block;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-}
- .Logout {
+} */
+ /* .Logout {
     border: 1px solid blue;
     width: 10%;
     display: inline-block;
@@ -114,7 +121,7 @@ body {
 .Logout p{
     width: 100%;
 
-}
+} */
    
     </style>
 </head>
@@ -127,14 +134,14 @@ body {
             <h3>Account</h3>
             <div class="Profile">
                 <!-- <i class="fas fa-cog"></i> -->
-                <a href="../details.php"><p>Profile and information</p></a>
+                <a href="../details.php"><p id="first">Profile and information</p></a>
                 <a href="register/update.php"><p>Update Information</p></a>
             </div>
         </div>
         <div class="Low-details">
             <div class ="Logout">
                 <!-- <i class="fas fa-sign-out-alt"></i> -->
-                <a href="register/logout.php"><p>Logout</p></a>
+                <!-- <a href="register/logout.php"><p>Logout</p></a> -->
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../database.php'; // Your database connection file
+require_once '../db/database.php'; // Your database connection file
 
 // Check if user is logged in
 if (!isset($_SESSION['username'])) {

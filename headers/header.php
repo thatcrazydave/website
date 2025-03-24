@@ -3,7 +3,6 @@
             <div class="container">
                <a href="./index.php" class="logo">AP<b>OLO</b></a>
                 <ul class="links">
-                   
                     <li><a href="./about.php">About Us</a></li>
                     <li><a href="#">Info</a></li>
                     <li><a href="register/login.php">Get Started</a></li>

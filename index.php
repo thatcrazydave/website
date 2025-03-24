@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'rate_limit.php';
-require 'database.php';
+require 'db/database.php';
 
 // Get client IP address
 function getClientIP() {
